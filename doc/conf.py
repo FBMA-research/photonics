@@ -38,6 +38,7 @@ extensions = [ 'sphinx.ext.autodoc', 'sphinx.ext.mathjax',
                'sphinx.ext.autosectionlabel' ]
 
 # for the specific theme:
+import sphinxawesome
 extensions += [ "sphinxawesome.highlighting",
                 "sphinxawesome.docsearch",
                 # To help you with the upgrade to version 5:
