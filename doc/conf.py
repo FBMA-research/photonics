@@ -68,6 +68,14 @@ extensions += [
     # "sphinxawesome.deprecated",
 ]
 
+html_theme_options = {
+    # ...
+    "show_relbar_top": False,      # hides permalink heading on top
+    "show_relbar_bottom": False,   # hides permalink heading on bottom
+    "navigation_with_keys": True,  # enables navigation with n and p keyboard keys
+    "show_prev_next": True         # adds navigation buttons
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
