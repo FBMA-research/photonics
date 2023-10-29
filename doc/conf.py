@@ -66,7 +66,7 @@ html_theme = "sphinxawesome_theme"
 html_static_path = ['_static']
 
 # for the specific theme:
-extensions += [ "sphinxawesome.highlighting",
-                "sphinxawesome.docsearch",
-                # To help you with the upgrade to version 5:
-                "sphinxawesome.deprecated" ]
+#extensions += [ "sphinxawesome.highlighting",
+#                "sphinxawesome.docsearch",
+#                # To help you with the upgrade to version 5:
+#                "sphinxawesome.deprecated" ]
