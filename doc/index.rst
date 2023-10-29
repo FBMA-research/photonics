@@ -1,51 +1,43 @@
-.. continuum-mechanics documentation master file, created by
-   sphinx-quickstart on Sat Mar 25 13:27:30 2023.
+.. photonics documentation master file, created by
+   sphinx-quickstart on Sun Oct 29 13:27:30 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to continuum-mechanics's documentation!
+Welcome to Photonics with MEEP documentation
 ===============================================
 
-.. _repository: https://github.com/LeoUribC/Continuum-Mechanics.git
+.. _repository: https://github.com/FBMA-research/photonics
 
-In this documentation will be an attempt to put in practice some key concepts
-learned through two of the courses that are actually being given in this
-semester, which are "scientific software engineering" and "computational
-mechanics".
+This documentation serves as a comprehensive template showcasing various features
+of reStructuredText (RST) syntax and its directives. It includes examples of code
+blocks, mathematical expressions, hyperlinks, and more, providing a hands-on guide
+for users to understand and utilize RST effectively. The template is designed to
+be highly customizable, allowing users to modify and adapt it according to their
+specific needs. Whether you’re a beginner just starting out with RST or an
+experienced user looking for a refresher, this documentation is a valuable
+resource to assist in creating well-structured and richly formatted documents.
+All the files are in the `repository`_.
 
-Here, will be solved the proposed exercises in computational mechanics using
-scientific software engineering concepts to keep a nice and clean documentation
-using clean code techniques and documentation tools learned so far.
-
-All the proposed exercises are listed in the **contents** section, the code
-files are visible in the `repository`_ with the python test files.
-
-Navigate through the contents below to see the step-by-step solution to every
-proposed exercise:
+Navigate through the contents below:
 
 
-Stress tensor, chapter 3
+A first look to section 1!
 *************************
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Stress tensor, chapter 3
+   :maxdepth: 1
+   :caption: First section
 
-   Exercise_1.rst
-   Ejercicio_3_8.rst
-   Ejercicio_3_18.rst
-   Ejercicio_3_28.rst
-   Ejercicio_3_29.rst
    test.rst
    nbtest.rst
 
 
-Conservation of mass and momentum in continuum, chapters 19 and 20
-*******************************************************************
+Now let's see section 2 with a mathematical example
+***************************************************
 
 .. toctree::
    :maxdepth: 1
-   :caption: Conservation of mass and momentum in continuum, chapters 19 and 20
+   :caption: Second section
 
    Exercise_191.rst
    Exercise_203.rst

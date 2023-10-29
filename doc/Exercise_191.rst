@@ -1,7 +1,5 @@
-
-
-**Example 19.1**
-================
+Example 19.1
+============
 
 Fill in the details of obtaining (19.15) from (19.14)
 
@@ -13,8 +11,8 @@ Fill in the details of obtaining (19.15) from (19.14)
 
 
 
-**Solution**
-------------
+Solution
+--------
 
 To derive equation (19.15) from equation (19.14), we need to apply
 the Leibniz rule for differentiating an integral with respect to
@@ -24,21 +22,21 @@ Starting with equation (19.14):
 
 .. math:: I = \frac{d}{dt} ∫_v ρ(x[X,t],t)A(x[X,t],t)J \tag{19.14}
 
-We cap apply the Leibniz rule to the integrand, treating both
+We can apply the Leibniz rule to the integrand, treating both
 :math:`ρ(x[X,t],t)` and :math:`A(x[X,t],t)` as functions of
 :math:`t`:
 
 .. math:: I =  ∫_v \frac{d}{dt} (ρ(x[X,t],t)A(x[X,t],t)J) dV 
 
---------------
 
-**The Leibniz rule**
---------------------
 
-The Leibniz rule, also known as the Leibniz integral rule or the
-differentiation under the integral sign, is a powerful tool for
-differentiating integrals with respect to a parameter. It allows us
-to interchange the order of differentiation and integration.
+.. important:: The Leibniz rule
+
+   The Leibniz rule, also known as the Leibniz integral rule or the
+   differentiation under the integral sign, is a powerful tool for
+   differentiating integrals with respect to a parameter. It allows us
+   to interchange the order of differentiation and integration.
+
 
 In the context of the exercise, we have the integral:
 

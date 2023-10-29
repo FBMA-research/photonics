@@ -10,7 +10,7 @@ sphinx can renderize them via the extensions installed in the
 Now, let’s see a little code:
 
 
-.. code:: ipython3
+.. code:: python
 
     def say_hi(name):
         return f"hi {name}, cool name!"
