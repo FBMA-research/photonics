@@ -37,13 +37,6 @@ release = '0.1'
 extensions = [ 'sphinx.ext.autodoc', 'sphinx.ext.mathjax',
                'sphinx.ext.autosectionlabel' ]
 
-# for the specific theme:
-import sphinxawesome
-extensions += [ "sphinxawesome.highlighting",
-                "sphinxawesome.docsearch",
-                # To help you with the upgrade to version 5:
-                "sphinxawesome.deprecated" ]
-
 myst_enable_extensions = ["amsmath", "dollarmath"]
 
 source_suffix = ['.rst', '.md', '.ipynb']
@@ -64,10 +57,16 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-import sphinx_rtd_theme
+import sphinx_rtd_theme, sphinxawesome_theme
 html_theme = "sphinxawesome_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# for the specific theme:
+extensions += [ "sphinxawesome.highlighting",
+                "sphinxawesome.docsearch",
+                # To help you with the upgrade to version 5:
+                "sphinxawesome.deprecated" ]
