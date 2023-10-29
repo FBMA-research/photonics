@@ -18,4 +18,4 @@ we will also test LaTEX, in a single line such as :math:`\text{A} = \pi r^2h` an
 .. math::
    a^2 + b^2 = c^2 \tag{1}
 
-also, we can try one line code highlight `oneLine()`
+also, we can try one line code highlight ``oneLine()``

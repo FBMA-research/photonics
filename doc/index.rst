@@ -38,6 +38,7 @@ Stress tensor, chapter 3
    Ejercicio_3_29.rst
    test.rst
    nbtest.rst
+   nbtest.ipynb
 
 
 Conservation of mass and momentum in continuum, chapters 19 and 20
