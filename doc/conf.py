@@ -35,7 +35,8 @@ release = '0.1'
 #import myst-parser
 
 extensions = [ 'sphinx.ext.autodoc', 'sphinx.ext.mathjax',
-               'sphinx.ext.autosectionlabel' ]
+               'sphinx.ext.autosectionlabel', 'nbsphinx',
+               'jupyter-sphinx.execute' ]
 
 myst_enable_extensions = ["amsmath", "dollarmath"]
 
@@ -49,7 +50,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '**.ipynb_checkpoints']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -60,6 +61,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #import sphinx_rtd_theme
 html_theme = "sphinxawesome_theme"
 
+# these extensions only work for the sphinxawesome_theme
 extensions += [
     "sphinxawesome_theme",
     "sphinxawesome_theme.highlighting",
