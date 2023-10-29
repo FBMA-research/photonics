@@ -36,7 +36,7 @@ release = '0.1'
 
 extensions = [ 'sphinx.ext.autodoc', 'sphinx.ext.mathjax',
                'sphinx.ext.autosectionlabel', 'nbsphinx',
-               'jupyter_sphinx.execute', "jupyter_sphinx" ]
+               'jupyter_sphinx' ]
 
 myst_enable_extensions = ["amsmath", "dollarmath"]
 
