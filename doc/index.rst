@@ -29,6 +29,7 @@ Stress tensor, chapter 3
 
 .. toctree::
    :maxdepth: 2
+   :caption: Stress tensor, chapter 3
 
    Exercise_1.rst
    Ejercicio_3_8.rst
@@ -36,6 +37,7 @@ Stress tensor, chapter 3
    Ejercicio_3_28.rst
    Ejercicio_3_29.rst
    test.rst
+   nbtest
 
 
 Conservation of mass and momentum in continuum, chapters 19 and 20
@@ -43,6 +45,7 @@ Conservation of mass and momentum in continuum, chapters 19 and 20
 
 .. toctree::
    :maxdepth: 1
+   :caption: Conservation of mass and momentum in continuum, chapters 19 and 20
 
    Exercise_191.rst
    Exercise_203.rst
