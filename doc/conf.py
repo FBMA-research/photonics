@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'photonics with MEEP python'
+project = 'Photonics with MEEP python'
 copyright = '2023, Álvaro H. Bedoya, Leandro Uribe'
 author = 'Álvaro H. Bedoya, Leandro Uribe'
 
@@ -35,8 +35,7 @@ release = '0.1'
 #import myst-parser
 
 extensions = [ 'sphinx.ext.autodoc', 'sphinx.ext.mathjax',
-               'sphinx.ext.autosectionlabel', 'nbsphinx',
-               'jupyter_sphinx' ]
+               'sphinx.ext.autosectionlabel' ]
 
 myst_enable_extensions = ["amsmath", "dollarmath"]
 
