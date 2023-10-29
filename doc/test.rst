@@ -5,7 +5,7 @@ This is a new feature!
 
 in this file we will be testing if it's possible to render some markdown files and python commands such as the following:
 
-.. jupyter-execute::
+.. jupyter-execute:: python
 
    def sayHello(name):
       print(f"hello {name}, that's a cool name")
