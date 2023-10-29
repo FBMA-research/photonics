@@ -37,7 +37,6 @@ Stress tensor, chapter 3
    Ejercicio_3_28.rst
    Ejercicio_3_29.rst
    test.rst
-   nbtest.rst
    nbtest.ipynb
 
 
