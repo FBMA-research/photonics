@@ -30,12 +30,13 @@ We can apply the Leibniz rule to the integrand, treating both
 
 
 
-.. important:: The Leibniz rule
+.. admonition:: The Leibniz rule
+    :class: hint
 
-   The Leibniz rule, also known as the Leibniz integral rule or the
-   differentiation under the integral sign, is a powerful tool for
-   differentiating integrals with respect to a parameter. It allows us
-   to interchange the order of differentiation and integration.
+    Also known as the Leibniz integral rule or the
+    differentiation under the integral sign, is a powerful tool for
+    differentiating integrals with respect to a parameter. It allows us
+    to interchange the order of differentiation and integration.
 
 
 In the context of the exercise, we have the integral:
