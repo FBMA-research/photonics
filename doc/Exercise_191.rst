@@ -31,7 +31,7 @@ We can apply the Leibniz rule to the integrand, treating both
 
 
 .. admonition:: The Leibniz rule
-    :class: hint
+    :class: note
 
     Also known as the Leibniz integral rule or the
     differentiation under the integral sign, is a powerful tool for
