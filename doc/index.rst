@@ -48,12 +48,13 @@ Acerca de la propuesta de investigación
 
    estado_arte.rst
    metodologia.rst
-   resultados_conclusiones.rst
+   resultados.rst
+   conclusiones.rst
    referencias.rst
 
 
-Ejemplos prácticos
-******************
+Ejemplos prácticos (en desarrollo)
+**********************************
 
 .. toctree::
    :maxdepth: 1
