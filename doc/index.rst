@@ -3,41 +3,61 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Photonics with MEEP documentation
-===============================================
+Diseño y modelación de cristales fotónicos
+===========================================
 
-.. _repository: https://github.com/FBMA-research/photonics
-
-This documentation serves as a comprehensive template showcasing various features
-of reStructuredText (RST) syntax and its directives. It includes examples of code
-blocks, mathematical expressions, hyperlinks, and more, providing a hands-on guide
-for users to understand and utilize RST effectively. The template is designed to
-be highly customizable, allowing users to modify and adapt it according to their
-specific needs. Whether you’re a beginner just starting out with RST or an
-experienced user looking for a refresher, this documentation is a valuable
-resource to assist in creating well-structured and richly formatted documents.
-All the files are in the `repository`_.
-
-Navigate through the contents below:
+.. _github: https://github.com/FBMA-research/photonics
 
 
-A first look to section 1!
-*************************
+Nombres de los autores:
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* Leandro Uribe
+* Álvaro Bedoya
+
+Datos de contacto:
+~~~~~~~~~~~~~~~~~~
+
+* luribe671@soyudemedellin.edu.co
+* ahbedoya@udemedellin.edu.co
+
+Semillero:
+~~~~~~~~~~
+
+Diseño, caracterización y modelación de nuevos materiales
+
+Objetivo general:
+~~~~~~~~~~~~~~~~~~
+
+Diseñar y ajustar el cristal fotónico para aplicaciones tales como guías de onda.
+
+Objetivos específicos:
+~~~~~~~~~~~~~~~~~~~~~~~
+
+- Manejar los de paquetes de uso libre (MEEP/Python) para la modelación y simulación de cristales fotónicos.
+- Ajustar los ejemplos brindados por la documentación del paquete MEEP/Python a la simulación con los elementos de interés.
+- Estructurar la documentación del software personalizado en `github`_.
+
+
+Acerca de la propuesta de investigación
+***************************************
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Propuesta de investigación
+
+   estado_arte.rst
+   metodologia.rst
+   resultados_conclusiones.rst
+   referencias.rst
+
+
+Ejemplos prácticos
+******************
 
 .. toctree::
    :maxdepth: 1
-   :caption: First section
-
-   test.rst
-   nbtest.rst
-
-
-Now let's see section 2 with a mathematical example
-***************************************************
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Second section
+   :caption: Ejemplos con MEEP
 
    Exercise_191.rst
    Exercise_203.rst
