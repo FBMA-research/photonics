@@ -21,7 +21,7 @@ El punto de partida para cualquier solucionador FDTD son las partes derivadas de
 su forma más simple se pueden escribir.
 
 .. math::
-    \frac{\partial \textbf{B}}{\partial t} = -\nabla \times \textbf{E} - \textbf{J}_{\textbf{B}}
+    \frac{\partial \textbf{B}}{\partial t} = -\nabla \times \textbf{E} - \textbf{J}_{\textbf{B}} \\
     \frac{\partial \textbf{D}}{\partial t} = +\nabla \times \textbf{H} - \textbf{J}
 
 Donde :math:`\textbf{E}` y :math:`\textbf{H}` son el campo eléctrico macroscópico y el campo magnético respectivos, :math:`\textbf{E}`
