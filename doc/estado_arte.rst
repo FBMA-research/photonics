@@ -17,6 +17,25 @@ Las ecuaciones de Maxwell son el fundamento para comprender el comportamiento el
 condiciones periódicas adecuadas es crucial para la simulación y resultados consistentes [5]. Métodos como elementos finitos
 (FDTD) y plano de expansión de onda (PWE) son usados para resolver las ecuaciones de Maxwell en este contexto [6].
 
+El punto de partida para cualquier solucionador FDTD son las partes derivadas del tiempo de las ecuaciones de Maxwell, que en
+su forma más simple se pueden escribir.
+
+.. math::
+    \frac{\partial \{B}}{\partial t} = -\nabla \times \text{E} - \text{J}_{\text{B}}
+    \frac{\partial \{D}}{\partial t} = +\nabla \times \text{H} - \text{J}
+
+Donde :math:`\text{E}` y :math:`\text{H}` son el campo eléctrico macroscópico y el campo magnético respectivos, :math:`\text{E}`
+y :math:`\text{B}` es el desplazamiento eléctrico y el campo magnético inducido respectivamente, :math:`\text{J}` es la
+densidad de corriente de carga eléctrica y :math:`\text{J}_{\text{B}}` es una densidad de carga magnética.
+
+.. admonition:: Problema de valor inicial
+    :class: note
+
+    En los cálculos del dominio del tiempo normalmente se resuelve el problema inicial como un problema de valor inicial
+    donde los campos y las corrientes son 0 para un tiempo :math:`t < 0`. Luego, los valores distintos de 0 evolucionan en
+    respuesta a algunas corrientes :math:`\text{J}(x, t)` y/o :math:`\text{J}_{\text{B}}(x, t)`.
+
+
 Desarrollo histórico.
 ~~~~~~~~~~~~~~~~~~~~
 
