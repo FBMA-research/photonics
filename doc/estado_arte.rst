@@ -21,12 +21,12 @@ El punto de partida para cualquier solucionador FDTD son las partes derivadas de
 su forma más simple se pueden escribir.
 
 .. math::
-    \frac{\partial \{B}}{\partial t} = -\nabla \times \text{E} - \text{J}_{\text{B}}
-    \frac{\partial \{D}}{\partial t} = +\nabla \times \text{H} - \text{J}
+    \frac{\partial \textbf{B}}{\partial t} = -\nabla \times \textbf{E} - \textbf{J}_{\textbf{B}}
+    \frac{\partial \textbf{D}}{\partial t} = +\nabla \times \textbf{H} - \textbf{J}
 
-Donde :math:`\text{E}` y :math:`\text{H}` son el campo eléctrico macroscópico y el campo magnético respectivos, :math:`\text{E}`
-y :math:`\text{B}` es el desplazamiento eléctrico y el campo magnético inducido respectivamente, :math:`\text{J}` es la
-densidad de corriente de carga eléctrica y :math:`\text{J}_{\text{B}}` es una densidad de carga magnética.
+Donde :math:`\textbf{E}` y :math:`\textbf{H}` son el campo eléctrico macroscópico y el campo magnético respectivos, :math:`\textbf{E}`
+y :math:`\textbf{B}` es el desplazamiento eléctrico y el campo magnético inducido respectivamente, :math:`\textbf{J}` es la
+densidad de corriente de carga eléctrica y :math:`\textbf{J}_{\textbf{B}}` es una densidad de carga magnética.
 
 .. admonition:: Problema de valor inicial
     :class: note
