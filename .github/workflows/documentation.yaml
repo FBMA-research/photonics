@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-python@v3
       - name: Install dependencies
         run: |
-          pip install sphinx sphinxawesome-theme --pre
+          pip install sphinx sphinx-tabs sphinxawesome-theme --pre
       - name: Sphinx build
         run: |
           sphinx-build doc _build
