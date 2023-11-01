@@ -8,23 +8,29 @@ Diseño y modelación de cristales fotónicos
 
 .. _github: https://github.com/FBMA-research/photonics
 
+.. admonition:: Producto de investigación
+   :class: tip
+
+   Este producto hace parte del :ref:`Grupo de Investigación Teoría de Formas, Bravais-Moiré y Matrices Aleatorias
+   <https://investigaciones-pure.udem.edu.co/es/organisations/grupo-de-investigaci%C3%B3n-teor%C3%ADa-de-formas-bravais-moir%C3%A9-y-matrices->`
+   y está enmarcado dentro del :ref:`Semillero de Investigación en Diseño, Caracterización y Modelación de Nuevos Materiales 
+   <https://investigaciones-pure.udem.edu.co/es/organisations/semillero-de-investigaci%C3%B3n-en-dise%C3%B1o-caracterizaci%C3%B3n-y-modelaci%C3%B3n>`.
+   Estamos en el proceso de escritura de un artículo de divulgación científica.
+
 
 Nombres de los autores:
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* Leandro Uribe
-* Álvaro Bedoya
+>**Leandro Uribe**, estudiante del programa de pregrado Computación Científica de la Universidad de Medellín, monitor del
+grupo de investigación e integrante del semillero.
+>
+>Correo electrónico: luribe671@soyudemedellin.edu.co
+>
+>**Álvaro Bedoya**, docente de tiempo completo de la facultad de Ciencias Básicas de la Universidad de Medellín, líder del
+grupo de investigación e integrante del semillero.
+>
+>Correo electrónico: ahbedoya@udemedellin.edu.co
 
-Datos de contacto:
-~~~~~~~~~~~~~~~~~~
-
-* luribe671@soyudemedellin.edu.co
-* ahbedoya@udemedellin.edu.co
-
-Semillero:
-~~~~~~~~~~
-
-Diseño, caracterización y modelación de nuevos materiales
 
 Objetivo general:
 ~~~~~~~~~~~~~~~~~~
