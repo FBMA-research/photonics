@@ -21,8 +21,10 @@ El punto de partida para cualquier solucionador FDTD son las partes derivadas de
 su forma más simple se pueden escribir.
 
 .. math::
-    \frac{\partial \textbf{B}}{\partial t} = -\nabla \times \textbf{E} - \textbf{J}_{\textbf{B}} \\
-    \frac{\partial \textbf{D}}{\partial t} = +\nabla \times \textbf{H} - \textbf{J}
+    \begin{aligned}
+    \frac{\partial \textbf{B}}{\partial t} &= -\nabla \times \textbf{E} - \textbf{J}_{\textbf{B}} \\
+    \frac{\partial \textbf{D}}{\partial t} &= +\nabla \times \textbf{H} - \textbf{J}
+    \end{aligned}
 
 Donde :math:`\textbf{E}` y :math:`\textbf{H}` son el campo eléctrico macroscópico y el campo magnético respectivos, :math:`\textbf{E}`
 y :math:`\textbf{B}` es el desplazamiento eléctrico y el campo magnético inducido respectivamente, :math:`\textbf{J}` es la
@@ -45,9 +47,17 @@ Investigadores como Eli Yablonovitch and Sajeev John han hecho desarrollos pione
 El software MEEP
 ~~~~~~~~~~~~~~~~
 
+.. admonition:: ¿Qué significa ``MEEP``?
+    :class: hint
+
+    ``MEEP`` son las siglas para "MIT Electromagnetic Equation Propagation"
+
 Meep ofrece una plataforma para la simulación de una amplia matriz de arreglos fotónicos [9]. Algunas de sus ventajas es que es
 de  uso libre y es flexible para ser modificado por el usuario [10]. Algunas de sus limitaciones es el largo tiempo de computo
 para simulaciones 3D [11].
+
+Una filosofía del diseño central del MEEP es proporcionar la ilusión de espacio y tiempos contínuos, enmascarar la discretización
+subyascente del usuario tanto como sea posible.
 
 Aplicaciones tecnológicas recientes de los CF.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
