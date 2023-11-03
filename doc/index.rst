@@ -19,7 +19,7 @@ Diseño y modelación de cristales fotónicos
    Estamos en el proceso de escritura de un artículo de divulgación científica.
 
 
-Nombres de los autores:
+Nombres de los autores
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. tabs::
@@ -39,12 +39,12 @@ Nombres de los autores:
       Correo electrónico: luribe671@soyudemedellin.edu.co
 
 
-Objetivo general:
+Objetivo general
 ~~~~~~~~~~~~~~~~~~
 
 Diseñar y ajustar el cristal fotónico para aplicaciones tales como guías de onda.
 
-Objetivos específicos:
+Objetivos específicos
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 - Manejar los de paquetes de uso libre (MEEP/Python) para la modelación y simulación de cristales fotónicos.
@@ -52,8 +52,7 @@ Objetivos específicos:
 - Estructurar la documentación del software personalizado en `github`_.
 
 
-Acerca de la propuesta de investigación
-***************************************
+.. rubric:: Acerca de la propuesta de investigación
 
 .. toctree::
    :maxdepth: 2
@@ -66,8 +65,7 @@ Acerca de la propuesta de investigación
    referencias.rst
 
 
-Ejemplos prácticos de uso de MEEP
-**********************************
+.. rubric:: Ejemplos prácticos de uso de MEEP
 
 .. toctree::
    :maxdepth: 1
