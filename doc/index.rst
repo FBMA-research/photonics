@@ -52,7 +52,8 @@ Objetivos específicos
 - Estructurar la documentación del software personalizado en `github`_.
 
 
-.. rubric:: Acerca de la propuesta de investigación
+Navegación
+~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 2
@@ -64,8 +65,6 @@ Objetivos específicos
    conclusiones.rst
    referencias.rst
 
-
-.. rubric:: Ejemplos prácticos de uso de MEEP
 
 .. toctree::
    :maxdepth: 1
