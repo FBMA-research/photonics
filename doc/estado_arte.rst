@@ -7,7 +7,7 @@ Cristales fotónicos
 Los cristales fotónicos (CF) son materiales ópticos con una microestrucutra periódica a escala de la longitud de la luz. Los
 cristales fotónicos ofrecen un novedosa manera de manipular las ondas electromagnéticas, ellos operan bajo el principio de
 los gaps fotónicos, regiones donde los fotones no pueden propagarse [1]. Los CF se clasifican en 1D, 2D y 3D basados en la
-periodicidad de la estructura [2]. Estos materiales tienen aplicaciones in guías de onda filtros ópticos y circuitos fotónicos
+periodicidad de la estructura [2]. Estos materiales tienen aplicaciones en guías de onda, filtros ópticos y circuitos fotónicos
 integrados [3].
 
 Ecuaciones de Maxwell en la simulación de cristales fotónicos
@@ -18,7 +18,7 @@ condiciones periódicas adecuadas es crucial para la simulación y resultados co
 (FDTD) y plano de expansión de onda (PWE) son usados para resolver las ecuaciones de Maxwell en este contexto [6].
 
 El punto de partida para cualquier solucionador FDTD son las partes derivadas del tiempo de las ecuaciones de Maxwell, que en
-su forma más simple se pueden escribir.
+su forma más simple se pueden escribir como:
 
 .. math::
     \begin{aligned}
