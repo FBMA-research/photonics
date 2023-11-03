@@ -66,12 +66,11 @@ Acerca de la propuesta de investigación
    referencias.rst
 
 
-Ejemplos prácticos (en desarrollo)
+Ejemplos prácticos de uso de MEEP
 **********************************
 
 .. toctree::
    :maxdepth: 1
    :caption: Ejemplos con MEEP
 
-   Exercise_191.rst
-   Exercise_203.rst
+   primer_ejemplo.rst
