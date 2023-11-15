@@ -24,19 +24,19 @@ Nombres de los autores
 
 .. tabs::
 
-   .. tab:: Álvaro Bedoya
-
-      Docente de tiempo completo de la facultad de Ciencias Básicas de la Universidad de Medellín, líder del grupo de
-      investigación e integrante del semillero.
-
-      Correo electrónico: ahbedoya@udemedellin.edu.co
-
    .. tab:: Leandro Uribe
 
       Estudiante del programa de pregrado Computación Científica de la Universidad de Medellín, monitor del grupo de
       investigación e integrante del semillero.
 
       Correo electrónico: luribe671@soyudemedellin.edu.co
+
+   .. tab:: Álvaro Bedoya
+
+      Docente de tiempo completo de la facultad de Ciencias Básicas de la Universidad de Medellín, líder del grupo de
+      investigación e integrante del semillero.
+
+      Correo electrónico: ahbedoya@udemedellin.edu.co
 
 
 Objetivo general

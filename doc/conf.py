@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Photonics with MEEP python'
-copyright = '2023, Álvaro H. Bedoya, Leandro Uribe'
-author = 'Álvaro H. Bedoya, Leandro Uribe'
+copyright = '2023, Leandro Uribe, Álvaro H. Bedoya'
+author = 'Leandro Uribe, Álvaro H. Bedoya'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
